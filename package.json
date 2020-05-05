@@ -1,0 +1,27 @@
+{
+  "name": "cuestor-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emigpa/cuestor-docs.git"
+  },
+  "author": "emigpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emigpa/cuestor-docs/issues"
+  },
+  "homepage": "https://github.com/emigpa/cuestor-docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}

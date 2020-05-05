@@ -1,0 +1,26 @@
+module.exports = {
+  title: `CUESTOR`,
+  port: '9003',
+  host: '0.0.0.0',
+  base: '/cuestor-docs/',
+  dest: 'docs',
+  themeConfig: {
+    sidebar: [
+      ['/', 'Introduccion'],
+      ['manual', 'Manual de procedimiento'],
+      ['/notasmodelo', 'Notas modelo'],
+      ['/faq', 'Preguntas frecuentes'],
+      ['/contactos', 'Contactos']
+    ],
+    nav: [
+      // { text: 'Home', link: '/' },
+      // { text: 'Github', link: 'https://github.com/emigpa' }
+    ]
+  },
+  markdown: {
+    toc: { includeLevel: [2, 3] }
+    // config: md => {
+    //   md.use(require('markdown-it-katex'))
+    // }
+  }
+}
