@@ -1,6 +1,5 @@
-# Notas modelo, manuales y anexos
+# Notas modelo y anexos
 
-- <a href="./manualDeOperacionesPICT-PICTO-MAYO2019.docx" target="_blank">Manual de operaciones PICT-PICTO (MAYO2019)</a>
 - <a href="./anexoViaticos.pdf" target="_blank">Anexo viáticos</a>
 - <a href="./planillaDeViaticos.pdf" target="_blank">Planilla de viáticos</a>
 - <a href="./cambioPresupuestario.docx" target="_blank">Cambio presupuestario</a>

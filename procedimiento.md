@@ -1,4 +1,4 @@
-# Manual de procedimientos
+# Procedimiento (puntos importantes)
 
 Contenido
 [[toc]]
