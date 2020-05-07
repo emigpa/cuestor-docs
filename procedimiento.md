@@ -1,4 +1,4 @@
-# Procedimiento (puntos importantes)
+# Procedimiento (resumen)
 
 Contenido
 [[toc]]
