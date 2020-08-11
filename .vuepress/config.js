@@ -7,7 +7,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       ['/', 'Introduccion'],
-      ['/docs' , 'Documentación'],
+      // ['/docs' , 'Documentación'],
       ['procedimiento', 'Procedimiento (resumen)'],
       ['/notasmodelo', 'Notas modelo y anexos'],
       ['/manualDeOperaciones', 'Manual de operaciones'],
