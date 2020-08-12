@@ -3,16 +3,16 @@
 Contenido
 [[toc]]
 
-## **¿** Qué es CUESTOR **?**
+## **¿Qué es CUESTOR?**
 
-CUESTOR es un sistema que  calcula de manera automática el saldo de los PICT en base a las rendiciones que son cargadas en el mismo. Ideado para agilizar la comunicación entre los administradores y los responsables del proyecto
+CUESTOR es un sistema que calcula de manera automática el saldo de los PICT en base a las rendiciones que son cargadas en el mismo. Ideado para agilizar la comunicación entre los administradores y los responsables del proyecto.
 
 ### Caracteristicas Principales
 
 - Permite el acceso remoto desde internet y guarda una copia local de la información por lo cual tanto  el administrativo como el investigador pueden operar desde cualquier computadora que posea un navegador web.
 - Centraliza la información pertinente a la convocatoria y sus proyectos en un servidor central, evitando errores y duplicación de trabajo por tener planillas de archivos separadas en distintas computadoras, papeles,etc.
 - Permite conocer el estado de las rendiciones individuales de cada proyecto y el estado global de cada convocatoria, por lo cual permite tener una visión más amplia de todo el proceso administrativo.
-- Posee un Historial de datos, y permite  acceder a un registro de cambios por lo que  facilita la extracción de datos para consulta.
+- Posee un Historial de datos, y permite acceder a un registro de cambios por lo que facilita la extracción de datos para consulta.
 
 ### Tipos de usuario
 
@@ -41,3 +41,12 @@ Listado de todos los proyectos que posee una convocatoria a su vez están separa
 Graficos que representan el estado de rendicion de cada convocatoria por cuotas y años.
 
 - Cada convocatoria contiene información adicional con el estado de rendición de sus proyectos
+
+## TÉCNICO
+
+### Permisos de usuarios
+
+- root: puede borrar, agregar y modificar los proyectos.
+- admin: puede modificar los proyectos.
+- superv: puede ver los proyectos (readonly).
+- user: puede ver resumen y rendiciones solamente.
