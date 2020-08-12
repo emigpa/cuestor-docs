@@ -42,7 +42,7 @@ Graficos que representan el estado de rendicion de cada convocatoria por cuotas 
 
 - Cada convocatoria contiene información adicional con el estado de rendición de sus proyectos
 
-## TÉCNICO
+## Técnico
 
 ### Permisos de usuarios
 

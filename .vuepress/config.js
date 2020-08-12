@@ -7,12 +7,12 @@ module.exports = {
   themeConfig: {
     sidebar: [
       ['/', 'Introduccion'],
-      // ['/docs' , 'Documentación'],
       ['procedimiento', 'Procedimiento (resumen)'],
       ['/notasmodelo', 'Notas modelo y anexos'],
       ['/manualDeOperaciones', 'Manual de operaciones'],
       ['/faq', 'Preguntas frecuentes'],
-      ['/contactos', 'Contactos']
+      ['/contactos', 'Contactos'],
+      ['/docs' , 'Sobre CUESTOR'],
     ],
     nav: [
       // { text: 'Home', link: '/' },
