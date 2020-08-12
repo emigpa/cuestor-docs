@@ -41,12 +41,3 @@ Listado de todos los proyectos que posee una convocatoria a su vez están separa
 Graficos que representan el estado de rendicion de cada convocatoria por cuotas y años.
 
 - Cada convocatoria contiene información adicional con el estado de rendición de sus proyectos
-
-## Técnico
-
-### Permisos de usuarios
-
-- root: puede borrar, agregar y modificar los proyectos.
-- admin: puede modificar los proyectos.
-- superv: puede ver los proyectos (readonly).
-- user: puede ver resumen y rendiciones solamente.
