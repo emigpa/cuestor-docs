@@ -29,7 +29,7 @@ Muestra el estado del PICT Activo. Todos los usuarios pueden acceder a esta secc
 
 - Estado de rendición: muestra el estado de la rendición en el proyecto activo.
 
-- Rendición por rubros: Estado de rendición por rubro segun presupuesto anual.
+- Rendición por rubros: Estado de rendición por rubro según presupuesto anual.
 
 - Datos del proyecto: componente que detalla todos los datos que no estén relacionados con aspectos monetarios del proyecto. También ofrece la posibilidad de descargar en pdf una copia original del documento del proyecto.
 
@@ -41,7 +41,7 @@ Muestra el estado del PICT Activo. Todos los usuarios pueden acceder a esta secc
 
 ### Rendiciones
 
-En esta seccion se pueden visualizar y cargar nuevas rendiciones al proyecto activo
+En esta sección se pueden visualizar y cargar nuevas rendiciones al proyecto activo
 
 - Pueden acceder tanto los usuarios de consulta como los administradores estos últimos son los únicos capaces de hacer modificaciones
 
@@ -80,7 +80,7 @@ Gráficos que representan el estado de rendicion de cada convocatoria por cuotas
 
 #### Selector de proyecto
 
-para poder cambiar el proyecto activo que esta representado en la seccion RESUMEN se necesita hacer click en el boton situado en la barra lateral izquierda, el mismo esta situadio arriba del boton de navegacion Resumen
+para poder cambiar el proyecto activo representado en la seccion RESUMEN se necesita hacer click en el boton situado en la barra lateral izquierda, el mismo está situado arriba del botón de navegacion Resumen
 
  ![An image](./images/pictButton.png)
 
@@ -88,9 +88,11 @@ Al accionar este boton se despliega un listado con los proyectos disponibles por
 
 #### Modo edición
 
-Antes de realizar cualquier cambio se necesita accionar el siguiente boton para poder aplicar cambios dentro de la aplicacción
+Antes de realizar cualquier cambio se necesita accionar el siguiente botón para poder aplicar cambios dentro de la aplicacción.
 
 ![An image](./images/editionButton.png)
+
+- Solo esta disponible para los usarios con derechos administrativos
 
 ### Gráficos
 
