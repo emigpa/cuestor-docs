@@ -7,7 +7,7 @@ Contenido
 
 CUESTOR es un sistema que calcula de manera automática el saldo de los PICT en base a las rendiciones que son cargadas en el mismo. Ideado para agilizar la comunicación entre los administradores y los responsables del proyecto.
 
-### Caracteristicas Principales
+### Características Principales
 
 - Permite el acceso remoto desde internet y guarda una copia local de la información por lo cual tanto  el administrativo como el investigador pueden operar desde cualquier computadora que posea un navegador web.
 - Centraliza la información pertinente a la convocatoria y sus proyectos en un servidor central, evitando errores y duplicación de trabajo por tener planillas de archivos separadas en distintas computadoras, papeles,etc.
@@ -16,28 +16,63 @@ CUESTOR es un sistema que calcula de manera automática el saldo de los PICT en 
 
 ### Tipos de usuario
 
-- Responsable del proyecto
-- Administrador
-- Unidad administradora
+- Regente: Tiene acceso a todas las secciones, tiene permisos para realizar cualquier modificación.
+- Administrador: Tiene acceso a todas las secciones, tiene permisos para realizar cambios a excepción de crear o borrar proyectos.
+- Supervisor: Tiene acceso a todas las secciones. No puede realizar cambios.
+- Usuario de consulta: Tiene acceso solo a las secciones Resumen y Rendiciones. No puede realizar cambios. Solo puede ver los proyectos en los que figure como responsable.
 
 ## Secciones
 
 ### Resumen
 
-Muestra el estado del PICT seleccionado. Todos los usuarios pueden acceder a esta sección, los usuarios de consulta sólo podrán los proyectos de los que sean responsables
+Muestra el estado del PICT seleccionado. Todos los usuarios pueden acceder a esta sección, los usuarios de consulta sólo podrán visualizar los proyectos de los que sean responsables.
+
+- Estado de rendición: muestra el estado de la rendición en el proyecto activo.
+
+- Rendición por rubros: Estado de rendición por rubro segun presupuesto anual.
+
+- Datos del proyecto: componente que detalla todos los datos que no estén relacionados con aspectos monetarios del proyecto. También ofrece la posibilidad de descargar en pdf una copia original del documento del proyecto.
+
+- Presupuesto: Detalle sobre el presupuesto anual por rubro asignado al proyecto.
+
+- Informes: Estado de los informes cientifico tecnologicos.
+
+- Comentarios: En este componente el administrador puede dejar un mensaje al responsable del proyecto.
 
 ### Rendiciones
 
-Contiene una tabla que muestra las rendiciones por rubro
+En esta seccion se pueden visualizar y cargar nuevas rendiciones al proyecto activo
 
 - Pueden acceder tanto los usuarios de consulta como los administradores estos últimos son los únicos capaces de hacer modificaciones
 
 ### Administración
 
-Listado de todos los proyectos que posee una convocatoria a su vez están separados por unidad administradora.
+Sección en donde se puede acceder a un listado de todos los proyectos que posee una convocatoria que a su vez están separados por unidad administradora.
+
+- El usuario de consulta no tiene acceso a esta sección
+- El usuario supervisor solo puede puede ver los proyectos
+- El usuario regente puede crear y borrar proyectos o crear una nueva convocatoria
+- El usuario Admistrador puede editar la información del proyecto
+- Posee un buscador que filtra los proyectos por código o por el nombre del titular responsable del proyecto
+- Posee información adicional de cada proyecto en un formulario desplegable
 
 ### Estado
 
-Graficos que representan el estado de rendicion de cada convocatoria por cuotas y años.
+Gráficos que representan el estado de rendicion de cada convocatoria por cuotas y años.
 
 - Cada convocatoria contiene información adicional con el estado de rendición de sus proyectos
+
+## Funcionamiento
+
+### Gráficos
+
+ ![An image](./images/graph1.png)
+
+- El primer número que aparece sobre un gráfico del lado izquierdo es el porcentaje rendido de la cuota.
+- El  número que aparece en el extremo izquierdo representa el monto  rendido.
+- El número que aparece en el extremo derecho es el saldo restante de la cuota.
+- Para llegar al 100% de una cuota tiene que rendirse el 50% del presupuesto anual.
+
+ ![An image](./images/graph4.png)
+
+- En caso de que el monto rendido exceda al monto máximo de la cuota uno, el excedente se resta del saldo de la cuota 2.
