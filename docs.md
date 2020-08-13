@@ -25,7 +25,7 @@ CUESTOR es un sistema que calcula de manera automática el saldo de los PICT en 
 
 ### Resumen
 
-Muestra el estado del PICT seleccionado. Todos los usuarios pueden acceder a esta sección, los usuarios de consulta sólo podrán visualizar los proyectos de los que sean responsables.
+Muestra el estado del PICT Activo. Todos los usuarios pueden acceder a esta sección, los usuarios de consulta sólo podrán visualizar los proyectos de los que sean responsables.
 
 - Estado de rendición: muestra el estado de la rendición en el proyecto activo.
 
@@ -56,6 +56,18 @@ Sección en donde se puede acceder a un listado de todos los proyectos que posee
 - Posee un buscador que filtra los proyectos por código o por el nombre del titular responsable del proyecto
 - Posee información adicional de cada proyecto en un formulario desplegable
 
+#### Formulario de proyecto
+
+- Datos principales
+- Abstract
+- Presupuesto
+- Desembolsos
+- Reasignaciones
+- Adendas
+- Grupo
+- Informes
+- Comentario
+
 ### Estado
 
 Gráficos que representan el estado de rendicion de cada convocatoria por cuotas y años.
@@ -63,6 +75,22 @@ Gráficos que representan el estado de rendicion de cada convocatoria por cuotas
 - Cada convocatoria contiene información adicional con el estado de rendición de sus proyectos
 
 ## Funcionamiento
+
+### Herramientas de navegación
+
+#### Selector de proyecto
+
+para poder cambiar el proyecto activo que esta representado en la seccion RESUMEN se necesita hacer click en el boton situado en la barra lateral izquierda, el mismo esta situadio arriba del boton de navegacion Resumen
+
+ ![An image](./images/pictButton.png)
+
+Al accionar este boton se despliega un listado con los proyectos disponibles por convocatoria, el usuario de consulta solo puede ver los proyectos de los que es responsable, el resto de los usuarios pueden visualizar todos los proyectos de una convocatoria
+
+#### Modo edición
+
+Antes de realizar cualquier cambio se necesita accionar el siguiente boton para poder aplicar cambios dentro de la aplicacción
+
+![An image](./images/editionButton.png)
 
 ### Gráficos
 
