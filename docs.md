@@ -45,6 +45,18 @@ En esta sección se pueden visualizar y cargar nuevas rendiciones al proyecto ac
 
 - Pueden acceder tanto los usuarios de consulta como los administradores estos últimos son los únicos capaces de hacer modificaciones
 
+#### Cada rendición posee los siguientes campos
+
+- Fecha: fecha en la que se creó la rendición
+- Año: el año al que se va a asignar la rendición. Un proyecto puede tener 1 ó más años
+- Cuota: cuota a la que se le asigna la rendición. Solo hay dos cuotas por año
+- Monto: monto de la rendición en Pesos
+- Cuenta: Número de cuenta
+- Concepto: descripción de la rendición
+- Proveedor: Datos del proveedor
+- Numero de factura: Numero de factura del comprobamte
+- Comentario: Información adicional
+
 ### Administración
 
 Sección en donde se puede acceder a un listado de todos los proyectos que posee una convocatoria que a su vez están separados por unidad administradora.
