@@ -88,24 +88,6 @@ Gráficos que representan el estado de rendicion de cada convocatoria por cuotas
 
 ## Funcionamiento
 
-### Herramientas de navegación
-
-#### Selector de proyecto
-
-para poder cambiar el proyecto activo representado en la sección RESUMEN se necesita hacer click en el botón situado en la barra lateral izquierda, el mismo está situado arriba del botón de navegación Resumen
-
- ![An image](./images/pictButton.png)
-
-Al accionar este botón se despliega un listado con los proyectos disponibles por convocatoria, el usuario de consulta solo puede ver los proyectos de los que es responsable, el resto de los usuarios pueden visualizar todos los proyectos de una convocatoria
-
-#### Modo edición
-
-Antes de realizar cualquier cambio se necesita accionar el siguiente botón para poder aplicar cambios dentro de la aplicación.
-
-![An image](./images/editionButton.png)
-
-- Solo está disponible para los usuarios con derechos administrativos
-
 ### Gráficos
 
  ![An image](./images/graph_1.png)
@@ -118,3 +100,21 @@ Antes de realizar cualquier cambio se necesita accionar el siguiente botón para
  ![An image](./images/graph_2.png)
 
 - En caso de que el monto rendido exceda al monto máximo de la cuota uno, el excedente se resta del saldo de la cuota 2.
+
+### Herramientas de navegación
+
+#### Selector de proyecto
+
+para poder cambiar el proyecto activo representado en la sección RESUMEN se necesita hacer click en el botón situado en la barra lateral izquierda, el mismo está situado arriba del botón de navegación Resumen
+
+ ![An image](./images/pictSwitch.png)
+
+Al accionar este botón se despliega un listado con los proyectos disponibles por convocatoria, el usuario de consulta solo puede ver los proyectos de los que es responsable, el resto de los usuarios pueden visualizar todos los proyectos de una convocatoria
+
+#### Modo edición
+
+Antes de realizar cualquier cambio se necesita accionar el siguiente botón para poder aplicar cambios dentro de la aplicación.
+
+![An image](./images/editionButton.png)
+
+- Solo está disponible para los usuarios con derechos administrativos
