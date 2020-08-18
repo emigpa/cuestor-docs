@@ -108,13 +108,13 @@ Antes de realizar cualquier cambio se necesita accionar el siguiente botón para
 
 ### Gráficos
 
- ![An image](./images/graph1.png)
+ ![An image](./images/graph_1.png)
 
 - El primer número que aparece sobre un gráfico del lado izquierdo es el porcentaje rendido de la cuota.
 - El  número que aparece en el extremo izquierdo representa el monto  rendido.
 - El número que aparece en el extremo derecho es el saldo restante de la cuota.
 - Para llegar al 100% de una cuota tiene que rendirse el 50% del presupuesto anual.
 
- ![An image](./images/graph4.png)
+ ![An image](./images/graph_2.png)
 
 - En caso de que el monto rendido exceda al monto máximo de la cuota uno, el excedente se resta del saldo de la cuota 2.
